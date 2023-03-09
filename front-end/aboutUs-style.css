@@ -14,14 +14,19 @@ body {
 }
 
 .navigation {
-    background-color: #f8f7ee;
     height: 60px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    width: 100px;
-    height: 20px;
+    font-size: 2rem;
+    font-family: Impact;
+    font-weight: bold;
+    color: rgb(10, 0, 86);
+    padding-left: 0.4rem;
 }
 
 .navigation ul {
