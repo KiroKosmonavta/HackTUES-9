@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.btn-group {
+	margin-top: 20px;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 25px;
+	background-color: #3498db;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #2980b9;
+}
+
+#login-btn {
+	margin-right: 10px;
+}
+
+#signup-btn {
+	margin-left: 10px;
+}
+
+.hidden {
+	display: none;
+}
