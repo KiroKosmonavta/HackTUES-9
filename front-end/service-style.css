@@ -36,19 +36,58 @@ body {
     margin: 20px 10px;
 }
 
-#guard1 {
-    border: green solid;
-    padding: 5px;
-    width: fit-content;
-    height: fit-content;
+.firstLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#pPicture1 {
+#guard1 {
+    background-color: rgb(205, 233, 255);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 30%;
+    height: 30%;
+}
+
+#guard2 {
+    background-color: rgb(205, 233, 255);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 30%;
+    height: 30%;
+}
+
+#guard3 {
+    background-color: rgb(205, 233, 255);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 30%;
+    height: 30%;
+}
+
+.profilePictures {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
 }
 
-.name1 {
-    font-size: 10px;
+.stars {
+    text-align: center;
+}
+
+.names {
+    font-size: 20px;
+    text-align: center;
+}
+
+.prices {
+    margin: 10px;
     text-align: center;
 }

@@ -36,6 +36,7 @@ body {
 }
 
 .intro {
+    font-size: 20px;
     margin: auto;
     width: fit-content;
     background-color: rgb(178, 191, 255);
@@ -49,6 +50,7 @@ body {
 }
 
 .mission {
+    font-size: 20px;
     margin: 30px;
     width: 40%;
     background-color: rgb(255, 178, 249);
@@ -63,6 +65,7 @@ body {
 }
 
 .services {
+    font-size: 20px;
     margin: 30px;
     width: 40%;
     background-color: rgb(255, 178, 178);
@@ -76,6 +79,7 @@ body {
 }
 
 .team {
+    font-size: 20px;
     margin: 30px;
     width: 40%;
     background-color: rgb(178, 255, 191);
@@ -90,6 +94,7 @@ body {
 }
 
 .values {
+    font-size: 20px;
     margin: 30px;
     width: 93%;
     background-color: rgb(255, 232, 178);
