@@ -46,8 +46,8 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-a.active,
-a:hover {
+.navigation a.active,
+.navigation a:hover {
     background-color: lightblue;
     transition: 1.5s;
 }
@@ -55,6 +55,7 @@ a:hover {
 
 
 .slideshow-container {
+    display: flex;
     width: 80%;
     height: 100%;
     position: relative;
@@ -131,19 +132,16 @@ img {
     }
 }
 
-.intro-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.introText1 {
+.introText {
     width: 60%;
-    margin: 10px 30px;
-    border: black solid;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 5px;
     padding: 5px;
     background-color: rgba(127, 255, 212, 0.059);
+    text-align: left;
 }
 
 .flip-container {
@@ -153,8 +151,94 @@ img {
     margin: 0 20px;
 }
 
-.flip1 {
+.flip {
     width: 200px;
     height: 100px;
-    background-color: #7171715f;
+    background-color: #c6c3c35f;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.testimonial-text {
+    margin-top: 20px;
+    text-decoration: underline green;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.testimonials {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.testimonial {
+    width: 210px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #bbb;
+}
+
+.profilePicture {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nameOfReview {
+    margin-top: 5px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.stars {
+    text-align: center;
+}
+
+.review {
+    padding: 5px;
+}
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 60px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.footer div h3 {
+    font-style: 'Popins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+    color: rgb(255, 202, 202);
+    text-decoration: none;
 }
