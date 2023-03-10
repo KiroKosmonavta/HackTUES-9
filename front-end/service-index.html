@@ -43,13 +43,15 @@
         <div class="price">
             <h2>Цена</h2>
             <input type="radio" name="price" id="0-50">
-            <label for="0-50"> 0-50лв </label><br>
+            <label for="0-50" id="0-50"> 0-50лв </label><br>
             <input type="radio" for="price" name="price" id="50-100">
-            <label for="50-100"> 50-100лв </label><br>
+            <label for="50-100" id="50-100"> 50-100лв </label><br>
             <input type="radio" for="price" name="price" id="100-500">
-            <label for="500-1000"> 500-1000лв</label><br>
+            <label for="100-500" id="100-500"> 100-500лв </label><br>
+            <input type="radio" for="price" name="price" id="500-1000">
+            <label for="500-1000" id="500-1000"> 500-1000лв</label><br>
             <input type="radio" for="price" name="price" id="1000+">
-            <label for="1000+"> 1000лв+</label>
+            <label for="1000+" id="1000+"> 1000лв+</label>
         </div>
 
         <div class="rating">
@@ -82,6 +84,12 @@
 
     </div>
 
+    <div class="filters">
+        <div id="priceFilter">Цена: няма;</div>
+        <div id="ratingFilter">Рейтинг: няма;</div>
+        <div id="ageFilter">Години: няма;</div>
+    </div>
+
     <div class="items">
         <div class="firstLine">
             <div id="guard1">
@@ -108,7 +116,7 @@
                 <h3 class="stars">★★☆☆☆</h3>
                 <p class="descriptions">43 годишен бодигард. Нов в бизнеса, няма много опит с клиенти. Стреми се към
                     професионално поведение и добро изпълнение на задачата.</p>
-                <h4 class="prices">50лв.</h4>
+                <h4 class="prices">40лв.</h4>
             </div>
         </div>
         <div class="secondLine">
@@ -136,7 +144,7 @@
                 <h3 class="stars">★★★☆☆</h3>
                 <p class="descriptions">20 годишен, няма много опит, интересен стил на работа – облича се
                     непрофесионално, за да изненада хората, които ти мислят злото. Спазва си много добре задачата.</p>
-                <h4 class="prices">250лв.</h4>
+                <h4 class="prices">70лв.</h4>
             </div>
         </div>
     </div>

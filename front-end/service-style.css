@@ -32,6 +32,25 @@ body {
     flex-wrap: wrap;
 }
 
+.filters {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* 
+.priceFilters,
+.ageFilters,
+.ratingFilters {
+    margin-right: 10px;
+} */
+
 .items {
     margin: 20px 10px;
 }
@@ -39,14 +58,14 @@ body {
 .firstLine {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .secondLine {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 #guard1 {
