@@ -13,71 +13,86 @@ body {
     text-decoration: solid;
 }
 
-.navigation {
-    height: 60px;
-    width: 100%;
+
+.firstBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.secondBlock {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    font-size: 2rem;
-    font-family: Impact;
-    font-weight: bold;
-    color: rgb(10, 0, 86);
-    padding-left: 0.4rem;
-}
-
-.navigation ul {
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #183A1D;
-    font-size: 15px;
-    padding: 7px 13px;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-
-.navigation a.active,
-.navigation a:hover {
-    background-color: lightblue;
-    transition: 1.5s;
-}
-
-.footer {
-    margin-top: 150px;
-    width: 100%;
-    padding: 60px 15%;
-    background: #333;
-    color: #efefef;
+.teamPhoto {
+    width: 210px;
+    height: 280px;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-decoration: none;
+    border-radius: 10px;
+    margin: 30px;
+    margin-right: 60px;
 }
 
-.footer div {
+.intro {
+    margin: auto;
+    width: fit-content;
+    background-color: rgb(178, 191, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.intro h2 {
     text-align: center;
 }
 
-.footer div h3 {
-    font-style: 'Popins', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
+.mission {
+    margin: 30px;
+    width: 300px;
+    background-color: rgb(255, 178, 249);
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
 }
 
-.footer a:link,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-    color: rgb(255, 202, 202);
-    text-decoration: none;
+.mission h2 {
+    text-align: center;
+}
+
+.services {
+    margin: 30px;
+    width: 300px;
+    background-color: rgb(255, 178, 178);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.team {
+    margin: 30px;
+    width: 300px;
+    background-color: rgb(178, 255, 191);
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+}
+
+.team h2 {
+    text-align: center;
+}
+
+.values {
+    margin: 30px;
+    width: 93%;
+    background-color: rgb(255, 232, 178);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.values h2 {
+    text-align: center;
 }

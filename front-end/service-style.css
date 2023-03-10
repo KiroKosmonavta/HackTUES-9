@@ -13,56 +13,18 @@ body {
     text-decoration: solid;
 }
 
-.navigation {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 2rem;
-    font-family: Impact;
-    font-weight: bold;
-    color: rgb(10, 0, 86);
-    padding-left: 0.4rem;
-}
-
-.navigation ul {
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #183A1D;
-    font-size: 15px;
-    padding: 7px 13px;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-
-
-.navigation a.active,
-.navigation a:hover {
-    background-color: lightblue;
-    transition: 1.5s;
-}
-
 .introText {
-    margin: 10px 30px;
-    border: black solid;
+    margin: 20px 30px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     padding: 5px;
 }
 
 .sortSystem {
-    margin: 20px 50px;
+    margin: 30px 50px;
+    margin-bottom: 40px;
     background-color: rgba(218, 218, 218, 0.4);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -89,35 +51,4 @@ nav ul li a {
 .name1 {
     font-size: 10px;
     text-align: center;
-}
-
-
-.footer {
-    margin-top: 150px;
-    width: 100%;
-    padding: 60px 15%;
-    background: #333;
-    color: #efefef;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-decoration: none;
-}
-
-.footer div {
-    text-align: center;
-}
-
-.footer div h3 {
-    font-style: 'Popins', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-
-.footer a:link,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-    color: rgb(255, 202, 202);
-    text-decoration: none;
 }
