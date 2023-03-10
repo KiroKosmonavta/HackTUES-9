@@ -15,8 +15,27 @@
     <p> 3. Ако ви сметнеме за подходящ кандидат, ще бъде насрочена среща с психолог, за да сме сигурни както ние, така и клиентите, че хората, които ще ги пазят, наистина ще са със само такива намерения.</p>
     <p> 4. След определен опит и доволни клиенти, ще ви бъде дадено право сами да коригирате офертата ви - вашата цена и изисквания.</p>
     <p> 5. Всеки наш бодигард ще разполага със снимка и описание на уебсайта на GUARD.ME, което сами могат да определят, след обсъждане с нас по тази тема.</p>
-    <a href="">
-    <button>UPLOAD A FILE</button>
-    </a>
+    <form id="form">
+        <input type="file" id="file" accept=".jpg, .jpeg, .png, .pdf"></input><br>
+        <button type="submit">UPLOAD</button>
+    </form>
+    <script>
+        document.getElementById('form').addEventListener('upload', function(e){
+            e.preventDefault();
+
+            const userFile = document.getElementById('file').files
+
+            const formData = new FormData();
+
+            fetch('https://httpbin.org/post', {
+                method: "POST",
+                body: formData,
+            })
+            .then(res => res.json())
+            .then(data => console.log(data))
+            .catch(error => console.log(error))
+
+        })
+    </script>
 </body>
 </html>
