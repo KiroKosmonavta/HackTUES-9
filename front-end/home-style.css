@@ -13,46 +13,6 @@ body {
     text-decoration: solid;
 }
 
-.navigation {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 2rem;
-    font-family: Impact;
-    font-weight: bold;
-    color: rgb(10, 0, 86);
-    padding-left: 0.4rem;
-}
-
-.navigation ul {
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #183A1D;
-    font-size: 15px;
-    padding: 7px 13px;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-
-.navigation a.active,
-.navigation a:hover {
-    background-color: lightblue;
-    transition: 1.5s;
-}
-
-
 
 .slideshow-container {
     display: flex;
@@ -211,34 +171,4 @@ img {
 
 .review {
     padding: 5px;
-}
-
-.footer {
-    margin-top: 150px;
-    width: 100%;
-    padding: 60px 15%;
-    background: #333;
-    color: #efefef;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-decoration: none;
-}
-
-.footer div {
-    text-align: center;
-}
-
-.footer div h3 {
-    font-style: 'Popins', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-
-.footer a:link,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-    color: rgb(255, 202, 202);
-    text-decoration: none;
 }

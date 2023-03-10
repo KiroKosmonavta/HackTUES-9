@@ -13,70 +13,40 @@ body {
     text-decoration: solid;
 }
 
-.navigation {
-    height: 60px;
-    width: 100%;
+.textBox {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: first baseline;
 }
 
-.logo {
+.miniTitle {
+    text-align: center;
     font-size: 2rem;
-    font-family: Impact;
-    font-weight: bold;
-    color: rgb(10, 0, 86);
-    padding-left: 0.4rem;
+    font-family: monospace;
+    padding: 10px;
 }
 
-.navigation ul {
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-nav ul li a {
-    color: #183A1D;
-    font-size: 15px;
-    padding: 7px 13px;
+.para1 {
+    background-color: rgb(208, 232, 253);
     border-radius: 5px;
-    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
-.navigation a.active,
-.navigation a:hover {
-    background-color: lightblue;
-    transition: 1.5s;
-}
-.footer {
-    margin-top: 150px;
-    width: 100%;
-    padding: 60px 15%;
-    background: #333;
-    color: #efefef;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-decoration: none;
-}
-
-.footer div {
+.para1 h3 {
     text-align: center;
 }
 
-.footer div h3 {
-    font-style: 'Popins', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
+.para2 {
+    background-color: rgb(218, 255, 227);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
-.footer a:link,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-    color: rgb(255, 202, 202);
-    text-decoration: none;
+.para2 h3 {
+    text-align: center;
 }
